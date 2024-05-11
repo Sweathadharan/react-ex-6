@@ -29,8 +29,7 @@ class HigherOrderFunctions extends Component {
                                 <li className="single-line"><span>id : </span>{user.id}</li>
                                 <li className="single-line"><span>Name : </span>{user.name}</li>
                                 <li className="single-line"><span>User Type : </span>{user.user_type}</li>
-                                <li className="single-line"><span> Age : </span>{user.age}</li>
-                                <li className="single-line"><span> Age : </span>{user.years}</li>
+                               
                         
                     </ul>
 
