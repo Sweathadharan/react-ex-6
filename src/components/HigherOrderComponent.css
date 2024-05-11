@@ -1,0 +1,65 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.user-data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.user-data span {
+  width: 100px; 
+}
+
+
+.user-data .fiterByUSerType ul,
+.user-data .filterWithj ul,
+.user-data .basedOnAge ul,
+.reduce ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 10px;
+}
+.container{
+  border:2px solid grey;
+  margin:10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.fiterByUSerType{
+  border:2px solid grey;
+  font-family: 'Times New Roman', Times, serif;
+}
+.filterWithj{
+  border:2px solid grey;
+  font-family: 'Times New Roman', Times, serif;
+}
+.basedOnAge{
+  border:2px solid grey;
+  font-family: 'Times New Roman', Times, serif;
+  color:rgba(0, 0, 255, 0.61);
+}
+.user-data li {
+  margin-bottom: 5px;
+  list-style: none;
+  color:rgba(0, 0, 255, 0.61);
+  text-align: left;
+}
+.reduce{
+  border:2px solid grey;
+}
+li:not(.user-data li) {
+  display: inline-block;
+  margin-right: 20px; 
+  color: rgba(0, 0, 255, 0.61);
+}
+.reduce{
+  color:rgba(0, 0, 255, 0.61);
+}
